@@ -1,0 +1,188 @@
+/*banner部分*/
+.gamebanner{
+	width:100%;
+	height: 254px;
+	background: url(../images/gamebanner.jpg) no-repeat center top;
+}
+/*gamecontent部分*/
+.gamecontent {
+	overflow: hidden;
+}
+.gamecontent .gamehd{
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid #cddae8;	
+	overflow: hidden;
+}
+.gamecontent .gamehd h2{
+	float:left;
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 30px;
+	line-height: 80px;
+	background: url(../images/location.png) no-repeat left center;
+}
+.gamecontent .gamehd p{
+	float:right;
+	padding-top: 33px;
+}
+.gamecontent .gamehd p a{
+	float:left;
+	width:15px;
+	height: 13px;
+	background: url(../images/home.png);
+}
+.gamecontent .gamehd p i{
+	float:left;
+	width:4px;
+	height: 13px;
+	background: url(../images/arrow4.png) no-repeat 0 3px;
+	margin: 0 11px 0 13px;
+}
+.gamecontent .gamehd p span{
+	position: relative;
+	top:-2px;
+}
+.gamecontent .gamebd{
+	overflow:hidden;
+}
+.gamecontent .gamebd .gamenav{
+	float:left;
+	width:195px;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.gamecontent .gamebd .gamenav ul{
+	width: 100%;
+	overflow: hidden;
+}
+.gamecontent .gamebd .gamenav ul li{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #cad6e1;
+	line-height: 80px;
+}
+.gamecontent .gamebd .gamenav ul li a{
+	display: block;
+	height: 100%;
+	position: relative;
+	padding-left: 53px;	
+}
+.gamecontent .gamebd .gamenav ul li.current a{
+	background: url(../images/arrow.png) no-repeat right center;
+	color:#38b774;
+}
+.gamecontent .gamebd .gamenav ul li a:hover{
+	color:#38b774;
+}
+.gamecontent .gamebd .gamenav ul li a i{
+	position: absolute;
+	top:19px;
+	left:0;
+	width:42px;
+	height:39px;
+	background: url(../images/pad.png) no-repeat 0 2px;
+}
+.gamecontent .gamebd .gamenav ul li.current a i,.gamecontent .gamebd .gamenav ul li a i:hover{
+	background: url(../images/pad.png) no-repeat -125px 2px;
+}
+.gamecontent .gamebd .gamepro{
+	float:right;
+	width:757px;
+	padding-top: 44px;
+	overflow: hidden;
+}
+.gamecontent .gamebd .gamepro ul{
+	width:900px;
+	overflow: hidden;
+}
+.gamecontent .gamebd .gamepro ul li{
+	float: left;
+	width:355px;
+	height: 327px;
+	border: 1px solid #cad6e1;
+	border-radius: 5px;
+	margin:0 43px 42px 0;
+}
+.gamecontent .gamebd .gamepro ul li h3{
+	width:100%;
+	height: 54px;
+	padding-top: 4px;
+	line-height: 54px;
+	text-align: center;
+}
+.gamecontent .gamebd .gamepro ul li h3 a{
+	padding-right: 14px;
+	background: url(../images/arrow.png) no-repeat right center;
+}
+.gamecontent .gamebd .gamepro ul li h3 a span{
+	color:#38b774;
+	font-size: 10px;
+	padding-left: 9px;
+	position: relative;
+	top:2px;
+	left: 0;
+}
+.gamecontent .gamebd .gamepro ul li h3 a:hover{
+	color:#38b774;
+}
+.gamecontent .gamebd .gamepro ul li .gamepic{
+	display: block;
+	padding: 0 12px;
+}
+.gamecontent .gamebd .gamepro ul li .gamepic:hover{
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+.gamecontent .gamebd .gamepro ul li p{
+	height:36px;
+	padding: 20px 12px 0;
+	line-height: 36px;
+	text-align: center;
+}
+.gamecontent .gamebd .gamepro ul li p span{
+	float: left;
+	width:169px;
+	border-right: 1px solid #c7d6e5;
+}
+.gamecontent .gamebd .gamepro ul li p span.download{
+	width:161px;
+	border-right:0;
+}
+.gamecontent .gamebd .gamepro ul li p span a{
+	display: inline-block;
+	height: 36px;
+	padding-left: 33px;
+	background: url(../images/icon.png) no-repeat 0 -345px;
+}
+.gamecontent .gamebd .gamepro ul li p span.download a{
+	padding-left: 40px;
+	background: url(../images/icon.png) no-repeat 0 -446px;
+}
+.gamecontent .gamebd .gamepro ul li p span a:hover{
+	color:#38b774;
+}
+.gamecontent .gamebd .gamepro .game_more{
+	display: block;
+	width:213px;
+	height: 56px;
+	border-radius: 5px;
+	background: #38b774;
+	margin: 0 auto 40px;
+	line-height: 56px;
+	text-align: center;
+	color:#fff;
+}
+.gamecontent .gamebd .gamepro .game_more:hover{
+	background: #2baa67;
+}
+/*gamefooter部分*/
+.gamefooter{
+	width:100%;
+	height: 72px;
+	padding: 24px 0;
+	background:#252947;
+	line-height: 24px;
+	font-size: 12px;
+	color:#6c6e7e;
+}
